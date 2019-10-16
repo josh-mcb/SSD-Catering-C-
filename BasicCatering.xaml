@@ -1,0 +1,29 @@
+﻿<Window x:Class="SolutionCW.BasicCatering"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SolutionCW"
+        mc:Ignorable="d"
+        Title="BasicCatering" Height="700
+        " Width="1000"
+        WindowStartupLocation="CenterScreen"
+         ResizeMode="NoResize">
+    <Grid Background="#FF529ACD">
+        <Frame x:Name="BSframe" Content="" HorizontalAlignment="Left" Height="619" Margin="10,40,0,0" VerticalAlignment="Top" Width="794" Navigated="BSframe_Navigated"/>
+        <Button Content="Stock" HorizontalAlignment="Left" Margin="836,113,0,0" VerticalAlignment="Top" Width="110" Height="58" Click="Button_Click_2"/>
+        <Button Content="Orders" HorizontalAlignment="Left" Margin="836,187,0,0" VerticalAlignment="Top" Width="110" Height="58" Click="Button_Click_Order"/>
+        <Button Content="Courses" HorizontalAlignment="Left" Margin="836,263,0,0" VerticalAlignment="Top" Width="110" Height="58" Click="Button_Click_Dessert"/>
+        <Button Content="Card Details" HorizontalAlignment="Left" Margin="838,495,0,0" VerticalAlignment="Top" Width="112" Height="58" Click="Button_Click_100" RenderTransformOrigin="0.873,0.681"/>
+        <Button Content="Suppliers" HorizontalAlignment="Left" Margin="836,341,0,0" VerticalAlignment="Top" Width="110" Height="58" Click="Button_Click_Supplier"/>
+        <Button Content="Invoices" HorizontalAlignment="Left" Margin="836,419,0,0" VerticalAlignment="Top" Width="110" Height="58" Click="Button_Click_Invoices"/>
+        <Label Content="Events Unlimited" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.024,0.33" Background="{x:Null}" Foreground="Black" FontFamily="MV Boli" FontSize="24" Height="61" Width="315"/>
+        <Button Content="Customer" HorizontalAlignment="Left" Margin="836,40,0,0" VerticalAlignment="Top" Width="110" Height="58" Click="Button_Click_customer"/>
+
+
+    </Grid>
+
+
+
+</Window>
+    
